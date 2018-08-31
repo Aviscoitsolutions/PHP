@@ -1,0 +1,27 @@
+[17-07-2018 06:48:34] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.google.com". A feed could not be found at http://www.google.com/. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed.
+
+[17-07-2018 06:48:34] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-07-2018 06:49:01] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.rediff.com". A feed could not be found at http://www.rediff.com/. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed.
+
+[17-07-2018 06:49:01] [Error] WPRSS > 2:
+Sorted: 
+
+
+[17-07-2018 07:46:43] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.rediff.com". A feed could not be found at http://www.rediff.com/. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed.
+
+[17-07-2018 07:46:43] [Error] WPRSS > 2:
+Sorted: 
+
+[17-07-2018 07:46:45] [Error] WPRSS > wprss_get_feed_items:
+Failed to fetch feed "http://www.google.com". A feed could not be found at http://www.google.com/. A feed with an invalid mime type may fall victim to this error, or SimplePie was unable to auto-discover it.. Use force_feed() if you are certain this URL is a real feed.
+
+[17-07-2018 07:46:45] [Error] WPRSS > 2:
+Sorted: 
+
+
