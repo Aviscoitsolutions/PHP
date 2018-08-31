@@ -1,0 +1,22 @@
+h5 {
+  display: inline-block;
+  padding: 10px;
+  /*background: #B9121B;*/
+  /*border-top-left-radius: 10px;
+  border-top-right-radius: 10px;*/
+}
+
+/*.full-screen {
+  background-size:100%;*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;
+  height: 450px;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 450px;
+    }
+.carousel-inner .carousel-item{height: 450px;}  
+.carousel-item {*//*background-size: 100%;*//*background-size: 0px;} */
