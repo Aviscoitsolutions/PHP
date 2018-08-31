@@ -1,0 +1,20 @@
+# refference websites
+
+1)http://ampster-theme.com/corporate/   ......................... iformative
+2)http://preview.themeforest.net/item/dotdigital-web-design-agency-wordpress-theme/full_screen_preview/21962731
+3)Ampster Medical | A WordPress Theme for Medical Professionals.............. good website theme
+
+
+# selected 
+1)http://ampster-theme.com/corporate/
+2)https://www.templatemonster.com/demo/61317.html.................... features and about us
+3)https://modeltheme.com/mt_hostcluster/home/video-home/...............hover effectsx
+4)https://www.mplussoft.com/mobile-application-development-company   information 
+#logo color code
+393185 b         57,34,124
+008dd2 sky blue  0,132,207
+a2d9f7 ice b     162,215,247
+rgba(162,217,247,0.42)
+
+#code i have used
+1) our services hover effect...........https://www.youtube.com/watch?v=q_ZER36PDm8&t=119s
