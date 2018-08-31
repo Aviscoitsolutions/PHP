@@ -1,0 +1,12 @@
+
+#)color
+  blue #6a54dc
+  purple #b948f8
+  row bd #e4e4e4
+
+#) Fonts
+  page title -Yatra One
+  feature h3 -Courgette
+
+
+  
