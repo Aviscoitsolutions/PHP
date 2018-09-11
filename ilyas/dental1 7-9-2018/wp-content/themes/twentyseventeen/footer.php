@@ -130,7 +130,7 @@
 				?>
 				
 			</div><!-- .wrap -->
-			<div class="container-fluid text-white bg-dark">All right reserved. Copyright © 2018 Avisco IT Solutions.</div>
+			<div class="container-fluid text-white bg-dark">All right reserved. Copyright © 2018 Avisco IT Solutions Pvt Ltd.</div>
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
 </div><!-- #page -->
