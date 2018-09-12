@@ -9,6 +9,9 @@
  */
 
 ?>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-11">
 <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'twentyseventeen' ); ?>">
 	<button class="menu-toggle" aria-controls="top-menu" aria-expanded="false">
 		<?php
@@ -22,8 +25,15 @@
 		'theme_location' => 'top',
 		'menu_id'        => 'top-menu',
 	) ); ?>
-
+	
 	<?php if ( ( twentyseventeen_is_frontpage() || ( is_home() && is_front_page() ) ) && has_custom_header() ) : ?>
 		<a href="#content" class="menu-scroll-down"><?php echo twentyseventeen_get_svg( array( 'icon' => 'arrow-right' ) ); ?><span class="screen-reader-text"><?php _e( 'Scroll down to content', 'twentyseventeen' ); ?></span></a>
 	<?php endif; ?>
+
 </nav><!-- #site-navigation -->
+</div>
+<div class="col-md-1 text-right lh47">
+<a href="http://localhost/dental1/login/?flag=logout"><?php if(isset($_SESSION["username"])) {echo 'Logout';} else {echo 'Login';}?></a>
+</div>
+</div>
+</div>

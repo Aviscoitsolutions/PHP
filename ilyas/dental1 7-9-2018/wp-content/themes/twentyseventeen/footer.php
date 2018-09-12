@@ -73,36 +73,38 @@
 					<li><a href="#">Press Releases</a></li>
 				</ul>
 	</div>	
-	<div class="textwidget custom-html-widget"><h3>
-    <a href="#" class="skew_forward">Contact Us</a>
-	</h3>
-		<ul class="footer_list" style="list-style: none;">
-		    <li>
-		        <a href="#">Inquiries</a>
-		    </li>
-		    <li>
-		        <a href="#">Analytics Support</a>
-		    </li>
-		    <li>
-		        <a href="#">Tell Us Your Story</a>
-		    </li>
-		</ul>
-	</div>
+	
 	</div>
 	</div>
 	</div>
 				<div class="col-md-2 col-sm-12">
+					<div class="textwidget custom-html-widget"><h3>
+				    <a href="#" class="skew_forward">Contact Us</a>
+					</h3>
+						<ul class="footer_list" style="list-style: none;">
+						    <li>
+						        <a href="#">Inquiries</a>
+						    </li>
+						    <li>
+						        <a href="#">Analytics Support</a>
+						    </li>
+						    <li>
+						        <a href="#">Tell Us Your Story</a>
+						    </li>
+						</ul>
+					</div>
+					
 					<div class="footer_logo">
 						<a href="#"></a>
 					</div>
-					<div class="footer_social">
-						<ul class="footer_social" style="list-style: none;display: inline;">
-							<li><a href="#" target="_blank"><i class="fab fa-facebook fs30"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-twitter fs30"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-linkedin fs30"></i></a></li>
-							<li><a href="#" target="_blank"><i class="fab fa-instagram fs30"></i></a></li>
-							</ul>
-					</div>
+			<div class="footer_social">
+			<ul class="footer_social" style="list-style: none;display: flex !important;bottom:0px;position: absolute;">
+				<li><a href="#" target="_blank"><i class="fab fa-facebook fs30" style="color:#3a589e;display: inline !important;"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fab fa-twitter fs30" style="color:#2998ea;display: inline !important;"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fab fa-linkedin fs30" style="color:#0077b5;display: inline !important;"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fab fa-instagram fs30" style="color:#87654a;display: inline !important;"></i></a></li>
+			</ul>
+			</div>
 					</div>
 			</div>
 			
@@ -135,6 +137,23 @@
 	</div><!-- .site-content-contain -->
 </div><!-- #page -->
 <?php wp_footer(); ?>
+<!-- change password -->
+<script type="text/javascript">
+    function changepass() {    	
+        
+         var pass1 = document.getElementById("cpwd").value;         
+         var pass2 = document.getElementById("cpwd1").value;
+		// alert(pass1+"  "+pass2);
+if (pass1 != pass2) 
+        {        	
+            alert("Passwords Do not match");
+            document.getElementById("cpwd").value="";
+            document.getElementById("cpwd1").value="";
+            document.getElementById("cpwd").focus();           
+            return false;
+        } }
+</script>
+<!-- change password -->
 
 </body>
 </html>

@@ -11,7 +11,17 @@
  * @since 1.0
  * @version 1.0
  */
-
+session_start();
+$home=home_url();
+if($_GET['flag']=='logout')
+{
+	unset($_SESSION['username']);
+	session_destroy();
+}
+if( !(isset($_SESSION['username'])) && (is_page('all-testimonials') || is_page('add-testimonials')  || is_page('edit-testimonials')  ||  is_page('change-password') || is_page('dashboard') )) 
+{
+wp_redirect($home."/login/?flag=please");exit;
+}
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
 <head>
@@ -38,7 +48,6 @@
 				</div><!-- .wrap -->
 			</div><!-- .navigation-top -->
 		<?php endif; ?>
-
 	</header><!-- #masthead -->
 
 	<?php
