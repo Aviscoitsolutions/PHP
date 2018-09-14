@@ -11,8 +11,11 @@
 ?>
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-11">
-<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'twentyseventeen' ); ?>">
+		<div class="col-md-4">
+			<?php the_custom_logo(); ?>
+		</div>
+		<div class="col-md-7">
+<nav id="site-navigation" class="main-navigation  float-right" role="navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'twentyseventeen' ); ?>">
 	<button class="menu-toggle" aria-controls="top-menu" aria-expanded="false">
 		<?php
 		echo twentyseventeen_get_svg( array( 'icon' => 'bars' ) );

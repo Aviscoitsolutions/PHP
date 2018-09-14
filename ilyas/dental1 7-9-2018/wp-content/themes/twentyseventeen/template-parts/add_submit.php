@@ -16,9 +16,7 @@ $imgpath=$upload."/testimonials/".$img;
 $home=$movepath['url'];
 
 $moveimage=move_uploaded_file($_FILES["test_img"]["tmp_name"],$imgpath);
-
-
-echo $insert="insert into wp_testimonials(test_name,test_desc,test_img,test_value,test_date) values('$name','$desc','$img','$val',curdate())";
+echo $insert="insert into wp_testimonials(test_name,test_desc,test_img,test_value,test_date) values('$name','$desc','$img','$val',now())";
 $insertq=mysqli_query($con,$insert);
 if($sitepanel=='sitepanel')
 {

@@ -78,7 +78,10 @@
 	</div>
 	</div>
 				<div class="col-md-2 col-sm-12">
-					<div class="textwidget custom-html-widget"><h3>
+
+					<div class="row">
+						<div class="col-md-12">
+							<div class="textwidget custom-html-widget"><h3>
 				    <a href="#" class="skew_forward">Contact Us</a>
 					</h3>
 						<ul class="footer_list" style="list-style: none;">
@@ -93,18 +96,29 @@
 						    </li>
 						</ul>
 					</div>
-					
-					<div class="footer_logo">
-						<a href="#"></a>
-					</div>
-			<div class="footer_social">
-			<ul class="footer_social" style="list-style: none;display: flex !important;bottom:0px;position: absolute;">
+							
+						</div>
+					</div> 
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-12">
+							<div class="footer_social">
+			<ul class="footer_social1 foot1" style1="list-style: none;display: flex !important;bottom:0px;position: absolute;">
 				<li><a href="#" target="_blank"><i class="fab fa-facebook fs30" style="color:#3a589e;display: inline !important;"></i></a></li>
 				<li><a href="#" target="_blank"><i class="fab fa-twitter fs30" style="color:#2998ea;display: inline !important;"></i></a></li>
 				<li><a href="#" target="_blank"><i class="fab fa-linkedin fs30" style="color:#0077b5;display: inline !important;"></i></a></li>
 				<li><a href="#" target="_blank"><i class="fab fa-instagram fs30" style="color:#87654a;display: inline !important;"></i></a></li>
 			</ul>
 			</div>
+							
+						</div>
+					</div> 
+					<!-- row -->				
+					
+					<!-- <div class="footer_logo">
+						<a href="#"></a>
+					</div> -->
+			
 					</div>
 			</div>
 			
@@ -155,5 +169,9 @@ if (pass1 != pass2)
 </script>
 <!-- change password -->
 
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

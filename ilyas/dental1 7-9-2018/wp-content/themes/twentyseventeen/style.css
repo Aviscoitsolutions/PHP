@@ -3293,13 +3293,33 @@ h1{color:#e3adad;}
 .admnbtn:hover{padding:5px 20px 5px 20px;background:#f5ffcb;width: 150px;border:1px solid #000;text-decoration: none;}
 .navigation-top .wrap{max-width: 100% !important;}
 .lh47{line-height: 47px;}
+.lh47 a:hover{text-decoration: none;color: #767676;}
 .dash{background:#f5ffcb }
 .dashtext{color:#e3adad;}
 .dash a:hover{text-decoration: none;}
 .dashboard h3{margin:0px; padding: 0px;}
 .footer_social ul li{padding-left: 10px;padding-right: 10px;}
-
 /*template*/
+/*services*/
+.ser{background: #d7ffa9;border:1px solid #b5d78f;box-shadow: 0px 0px 4px 2px #b5d78f;}
+.ser:hover{background:#fff;border:1px solid #b5d78f;}
+.ser button{background:#b5d78f;border:1px solid #b5d78f;font-size: 16px;}
+.ser:hover button{color:#b5d78f;border:1px solid #b5d78f;background: #fff;}
+.modal-header .close {margin: 0px;padding: 0px;}
+.ht160{height: 160px;}
+.modal-dialog{max-width: 80%;margin:0 auto;}
+.modal-footer{justify-content: center;}
+/*services*/
+.foot1{list-style: none;display: flex !important;/*bottom:0px;position: absolute;*/}
+/*contact*/
+.wpcf7-form {width: 100%;margin:0px;}
+.wpcf7-form p {width:47%;float: left;margin-left:3%;}
+.wpcf7-form p label input[type="text"]{margin-left:3%;}
+.wpcf7-form p label input[type="tel"]{margin-left:3%;}
+.wpcf7-form p label input[type="email"]{margin-left:3%;}     
+ .wpcf7-form p label textarea{width: 100% !important;}   
+/*contact*/
+
 
 /*--------------------------------------------------------------
 19.0 Media Queries
