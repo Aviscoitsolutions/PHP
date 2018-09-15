@@ -1318,9 +1318,9 @@ a:hover .nav-title,
 
 .navigation-top {
 	/*background: #fff;*/
-	background-color: #f5ffcb;
-	border-bottom: 1px solid #eee;
-	border-top: 1px solid #eee;
+	background-color: #a9c4ff;
+	/*border-bottom: 1px solid #eee;*/
+	/*border-top: 1px solid #eee;*/
 	font-size: 16px;
 	font-size: 1rem;
 	position: relative;
@@ -1332,6 +1332,7 @@ a:hover .nav-title,
 }
 
 .navigation-top a {
+	/*color: #222;*/
 	color: #222;
 	font-weight: 600;
 	-webkit-transition: color 0.2s;
@@ -1564,7 +1565,7 @@ body {
 /* Site branding */
 
 .site-branding {
-	padding: 1em 0;
+	/*padding: 1em 0;*/
 	position: relative;
 	-webkit-transition: margin-bottom 0.2s;
 	transition: margin-bottom 0.2s;
@@ -3228,7 +3229,7 @@ h1{color:#e3adad;}
     border-radius: 175px;}
 .textpink{color:#e3adad;}    
 .bgcnt{background: #b67d7d;}
-.bghder{background:#f5ffcb;}
+.bghder{background:#a9c4ff;}
 .bgkhki{background: #ffac44;}
 .contact input[type="submit"]{min-width: 60px;max-width: 200px !important;padding: 10px 30px 10px 30px !important;}
 .bgcnt .btn1{}
@@ -3293,12 +3294,14 @@ h1{color:#e3adad;}
 .admnbtn:hover{padding:5px 20px 5px 20px;background:#f5ffcb;width: 150px;border:1px solid #000;text-decoration: none;}
 .navigation-top .wrap{max-width: 100% !important;}
 .lh47{line-height: 47px;}
+.lh79{line-height: 79px;}
 .lh47 a:hover{text-decoration: none;color: #767676;}
 .dash{background:#f5ffcb }
 .dashtext{color:#e3adad;}
 .dash a:hover{text-decoration: none;}
 .dashboard h3{margin:0px; padding: 0px;}
 .footer_social ul li{padding-left: 10px;padding-right: 10px;}
+.footer_list ul li a {color:#fff !important;}
 /*template*/
 /*services*/
 .ser{background: #d7ffa9;border:1px solid #b5d78f;box-shadow: 0px 0px 4px 2px #b5d78f;}
@@ -3314,11 +3317,15 @@ h1{color:#e3adad;}
 /*contact*/
 .wpcf7-form {width: 100%;margin:0px;}
 .wpcf7-form p {width:47%;float: left;margin-left:3%;}
-.wpcf7-form p label input[type="text"]{margin-left:3%;}
-.wpcf7-form p label input[type="tel"]{margin-left:3%;}
-.wpcf7-form p label input[type="email"]{margin-left:3%;}     
- .wpcf7-form p label textarea{width: 100% !important;}   
+.wpcf7-form p label input[type="text"]{/*margin-left:3%;*/}
+.wpcf7-form p label input[type="tel"]{/*margin-left:3%;*/}
+.wpcf7-form p label input[type="email"]{/*margin-left:3%;*/}
+.wpcf7-form p textarea{width: 100% !important;}      
 /*contact*/
+.testa a:hover{text-decoration: none;}
+.spacer{padding-top: 100px;}
+.textwidget h3 a{color:#fff;}
+.footer_list a {color:#fff !important;}
 
 
 /*--------------------------------------------------------------
@@ -3331,7 +3338,24 @@ h1{color:#e3adad;}
 	body.customize-partial-edit-shortcuts-shown .site-header .site-title {
 		padding-left: 0;
 	}
+	
 }
+@media screen and (max-width: 20em) {
+	.wpcf7-form p {width:100%;float: left;}
+}
+@media screen and (max-width: 30em) {
+	.wpcf7-form p {width:100%;float: left;}
+}
+@media screen and (max-width: 37.5em) {
+	.wpcf7-form p {width:100%;float: left;}
+	.navht{top: 50px;
+    position: relative;}
+}
+@media screen and (max-width: 50em) {
+	.wpcf7-form p {width:100%;float: left;}
+}
+
+
 
 @media screen and (min-width: 30em) {
 
@@ -3398,7 +3422,9 @@ h1{color:#e3adad;}
 	/* Site Branding */
 
 	.site-branding {
-		padding: 3em 0;
+		/*padding: 3em 0;*/
+		padding:0;
+		
 	}
 
 	/* Front Page */
@@ -3509,6 +3535,9 @@ h1{color:#e3adad;}
 
 	.site-branding {
 		margin-bottom: 0;
+		/*ilyas*/
+		/*padding: 90px 0;*/	
+		padding: 0;
 	}
 
 	.has-header-image.twentyseventeen-front-page .site-branding,
@@ -3581,6 +3610,8 @@ h1{color:#e3adad;}
 	}
 
 	/* Navigation */
+	.navht{top: 103px;
+    position: relative;}
 
 	.navigation-top {
 		bottom: 0;
@@ -4202,6 +4233,9 @@ h1{color:#e3adad;}
 		max-width: 11.11%;
 	}
 }
+@media screen and ( min-width: 64.4375em ) {
+	.site-branding{padding: 0;}
+}
 
 @media screen and ( min-width: 67em ) {
 
@@ -4253,6 +4287,11 @@ h1{color:#e3adad;}
 	}
 }
 
+@media screen and ( min-width:48.876em ) and ( max-width: 56.6875em ){
+	.site-branding{padding:89px;}
+
+}
+
 @media screen and ( min-width: 79em ) {
 
 	.has-sidebar .entry-content blockquote.alignleft {
@@ -4273,7 +4312,12 @@ h1{color:#e3adad;}
 	.admin-bar .site-navigation-hidden.navigation-top {
 		top: 46px;
 	}
+	.site-branding{padding: 90px 0;
+		-moz-padding: 90px 0;}
+	
+	 
 }
+
 
 /*--------------------------------------------------------------
 20.0 Print

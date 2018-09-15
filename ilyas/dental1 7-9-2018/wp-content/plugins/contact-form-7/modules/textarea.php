@@ -71,7 +71,7 @@ function wpcf7_textarea_form_tag_handler( $tag ) {
 	$atts = wpcf7_format_atts( $atts );
 
 	$html = sprintf(
-		'<p style="width:100% !important;"><span class="wpcf7-form-control-wrap %1$s w-100"><textarea %2$s class="w-100
+		'<p class="w-100"><span class="wpcf7-form-control-wrap %1$s w-100"><textarea %2$s class="w-100
 		">%3$s</textarea>%4$s</span></p>',
 		sanitize_html_class( $tag->name ), $atts,
 		esc_textarea( $value ), $validation_error );
@@ -103,7 +103,7 @@ function wpcf7_textarea_validation_filter( $result, $tag ) {
 			$maxlength = $minlength = null;
 		}
 
-		$code_units = wpcf7_count_code_units( stripslashes( $value ) );
+		$code_units = wpcf7_count_code_units(stripslashes( $value ) );
 
 		if ( false !== $code_units ) {
 			if ( $maxlength && $maxlength < $code_units ) {

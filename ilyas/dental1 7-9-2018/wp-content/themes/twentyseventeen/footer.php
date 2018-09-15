@@ -101,24 +101,15 @@
 					</div> 
 					<!-- row -->
 					<div class="row">
-						<div class="col-md-12">
-							<div class="footer_social">
-			<ul class="footer_social1 foot1" style1="list-style: none;display: flex !important;bottom:0px;position: absolute;">
-				<li><a href="#" target="_blank"><i class="fab fa-facebook fs30" style="color:#3a589e;display: inline !important;"></i></a></li>
-				<li><a href="#" target="_blank"><i class="fab fa-twitter fs30" style="color:#2998ea;display: inline !important;"></i></a></li>
-				<li><a href="#" target="_blank"><i class="fab fa-linkedin fs30" style="color:#0077b5;display: inline !important;"></i></a></li>
-				<li><a href="#" target="_blank"><i class="fab fa-instagram fs30" style="color:#87654a;display: inline !important;"></i></a></li>
-			</ul>
-			</div>
-							
+						<div class="col-sm-3 col-md-3 "><a href="#" target="_blank"><i class="fab fa-facebook fs30" style="color:#3a589e;display: inline !important;"></i></a>
 						</div>
-					</div> 
-					<!-- row -->				
-					
-					<!-- <div class="footer_logo">
-						<a href="#"></a>
-					</div> -->
-			
+						<div class="col-sm-3 col-md-3 "><a href="#" target="_blank"><i class="fab fa-twitter fs30" style="color:#2998ea;display: inline !important;"></i></a>
+						</div>
+						<div class=" col-sm-3 col-md-3"><a href="#" target="_blank"><i class="fab fa-linkedin fs30" style="color:#0077b5;display: inline !important;"></i></a>
+						</div>
+						<div class=" col-sm-3 col-md-3"><a href="#" target="_blank"><i class="fab fa-instagram fs30" style="color:#87654a;display: inline !important;"></i></a>
+						</div>
+					</div><!-- row end -->			
 					</div>
 			</div>
 			

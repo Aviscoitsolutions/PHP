@@ -42,6 +42,7 @@ wp_redirect($home."/login/?flag=please");exit;
 	<header id="masthead" class="site-header" role="banner">
 
 		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
+		<!-- <div class="" style="margin-top: 30px;"></div> -->
 
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">
@@ -64,11 +65,14 @@ wp_redirect($home."/login/?flag=please");exit;
 		echo '</div><!-- .single-featured-image-header -->';
 	endif;
 	?>
+	
 	<?php
-	 if(is_front_page()) { 
-	 masterslider(1); 
+	if(is_front_page()) { 
+	masterslider(1); 
 	}
-		?>
+	?>
+	
 
 	<div class="site-content-contain">
 		<div id="content" class="site-content">
+			
