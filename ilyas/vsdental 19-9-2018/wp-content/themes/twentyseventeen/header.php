@@ -31,6 +31,7 @@ wp_redirect($home."/login/?flag=please");exit;
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
+
  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
  <?php $temppath=get_template_directory_uri();?>
 <!-- css -->
@@ -45,6 +46,7 @@ wp_redirect($home."/login/?flag=please");exit;
     <link href="<?php echo $temppath;?>/css/style.css" rel="stylesheet">
 	<link href="<?php echo $temppath;?>/color/default.css" rel="stylesheet"> 
 <!-- css -->
+<script src="<?php echo $temppath;?>/js/jquery.min.js"></script>
 <?php wp_head(); ?>
 </head>
 
@@ -73,16 +75,44 @@ wp_redirect($home."/login/?flag=please");exit;
     </section> -->
     <!--  -->
     <!-- <?php echo $temppath?>/video/Novodent - Dental J4qqnWscqeQ  KjPzPKNbsxIClinic.mp4?rel=0&controls=0&showinfo=0&autoplay=1&loop=1&modestbranding=0-->
-    <iframe id="ytplayer" class="w-100 htfrm" type="text/html" style="border:none" 
-src="https://www.youtube.com/embed/668nUCeBHyY?rel=0&controls=0&showinfo=0&autoplay=1&version=3&playlist=VIDEO_ID&loop=1&modestbranding=1" 
-frameborder="0" controls="0" loop allowfullscreen allow="autoplay; encrypted-media"></iframe>
+   <!-- 
+     <iframe id="ytplayer"  class="w-100 htfrm" type="text/html" style="border:none" 
+src="https://www.youtube.com/embed/vK5_cAYCpl4?rel=0&controls=0&showinfo=0&autoplay=1&version=3&playlist=1&loops=1&modestbranding=1" 
+frameborder="0" controls="0"  allowfullscreen allow="autoplay; encrypted-media"></iframe>  -->
+<script type="text/javascript">
 
+$( document ).ready(function() {
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/KjPzPKNbsxI?rel=0&controls=0&showinfo=0&autoplay=1&loop=1&modestbranding=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+	var sts= document.getElementById("ifram");
+	//alert(sts);
+	sts.controls=false;
+	//var kk=sts.loops();	
+	sts.play();	
+	
+});
+
+// function strd()
+// {
+	
+// 	var sts= document.getElementById("myVideo");
+// 	//alert(sts);
+// 	sts.play();	
+// 	// sts.autoplay() = true;
+// 	// sts.load();
+// }
+	
+</script><!-- oncanplay="strd();" -->
+<video id="myVideo" class="w-100 htfrm" autoplay loop    poster="images/cover.jpg" title="">
+  <source id="abc" src="<?php echo $temppath;?>/video/Nature Beautiful short video 720p HD.mp4" type="video/mp4" >
+  <source id="abc" src="<?php echo $temppath;?>/video/Nature Beautiful short video 720p HD.mp4" type="video/ogg" >
+  
+</video>
+<!-- <button onclick="strd();">Pause</button> -->
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/KjPzPKNbsxI?rel=0&controls=0&showinfo=0&autoplay=1&loop=1&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen autoplay></iframe> -->
 	<!-- /Section: intro -->	
 <?php } ?>
 
-<div id="page" class="site">
+<div id="page" class="site" >
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
