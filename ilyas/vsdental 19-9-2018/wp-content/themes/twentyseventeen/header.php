@@ -51,7 +51,7 @@ wp_redirect($home."/login/?flag=please");exit;
 </head>
 
 <body <?php body_class(); ?>>
-	<?php if(is_front_page()) { ?>
+	<?php if(is_front_page()) { ?>		
 <!-- Section: home video http://youtu.be/mroiVdC7H10-->
     <!-- <section id="intro" class="home-video text-light">
 		<div class="home-video-wrapper">
@@ -82,33 +82,23 @@ frameborder="0" controls="0"  allowfullscreen allow="autoplay; encrypted-media">
 <script type="text/javascript">
 
 $( document ).ready(function() {
-
-	var sts= document.getElementById("ifram");
+	var sts= document.getElementById("myVideo");
 	//alert(sts);
-	sts.controls=false;
+	//sts.controls=false;
 	//var kk=sts.loops();	
-	sts.play();	
-	
+	sts.play();		
 });
 
-// function strd()
-// {
-	
-// 	var sts= document.getElementById("myVideo");
-// 	//alert(sts);
-// 	sts.play();	
-// 	// sts.autoplay() = true;
-// 	// sts.load();
-// }
+
 	
 </script><!-- oncanplay="strd();" -->
-<video id="myVideo" class="w-100 htfrm" autoplay loop    poster="images/cover.jpg" title="">
-  <source id="abc" src="<?php echo $temppath;?>/video/Nature Beautiful short video 720p HD.mp4" type="video/mp4" >
-  <source id="abc" src="<?php echo $temppath;?>/video/Nature Beautiful short video 720p HD.mp4" type="video/ogg" >
-  
+<video id="myVideo" class="w-100 htfrm" autoplay="true" loop="true"    poster="images/cover.jpg" title="" >
+  <source id="abc1" src="<?php echo $temppath;?>/video/Nature Beautiful short video 720p HD.mp4" type="video/mp4" >
+  <source id="abc2" src="<?php echo $temppath;?>/video/Nature Beautiful short video 720p HD.mp4" type="video/ogg" >  
+  <source id="abc3" src="<?php echo $temppath;?>/video/Nature Beautiful short video 720p HD.mp4" type="video/webm" >  
 </video>
-<!-- <button onclick="strd();">Pause</button> -->
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/KjPzPKNbsxI?rel=0&controls=0&showinfo=0&autoplay=1&loop=1&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen autoplay></iframe> -->
+<!-- this is most important dont delete or remove this ifram without it the video can`t play proper, sometime paly sometime not play. -->
+<iframe  src="<?php echo $temppath;?>/video/Nature Beautiful short video 720p HD.mp4" width="1" height="1" controls="true"></iframe>
 	<!-- /Section: intro -->	
 <?php } ?>
 
