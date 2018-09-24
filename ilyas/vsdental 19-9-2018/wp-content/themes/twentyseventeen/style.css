@@ -1319,7 +1319,7 @@ a:hover .nav-title,
 
 .navigation-top {
 	/*background: #fff;*/
-	background-color: transparent;
+	background-color: transparent ;
 	/*border-bottom: 1px solid #eee;*/
 	/*border-top: 1px solid #eee;*/
 	font-size: 16px;
@@ -1334,7 +1334,7 @@ a:hover .nav-title,
 
 .navigation-top a {
 	/*color: #222;*/
-	color: #223f67;
+	color: #ccc;
 	font-weight: 600;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
@@ -1374,6 +1374,7 @@ a:hover .nav-title,
 	padding: 0.75em 1.695em;
 	    text-align: center;
 	    /*background: #fff;*/
+	    color:#fff !important;
 	    background: transparent;
 }
 
@@ -1383,7 +1384,7 @@ a:hover .nav-title,
 
 .main-navigation ul ul {
 	padding: 0 0 0 1.5em;
-	/*background: #223f67;*/
+	background: #223f67;
 }
 /*own*/
 .main-navigation ul ul li a:hover {	
@@ -1399,9 +1400,9 @@ a:hover .nav-title,
 	letter-spacing: 0;
 	padding: 0.4em 0;
 	position: relative;
-	text-transform: none;
+	text-transform: none;	
 	/*own*/
-	background:transparent;
+	background:#223f67;
 }
 
 .main-navigation li {
@@ -2863,8 +2864,8 @@ img.alignright {
 embed,
 iframe,
 object {
-	margin-bottom: 1.5em;
-	max-width: 100%;
+	/*margin-bottom: 1.5em;*/
+	/*max-width: 100%;*/
 }
 
 /* Remove bottom on embeds that wrapped in paragraphs via wpautop. */
@@ -3747,7 +3748,7 @@ input:-webkit-autofill {background: #fff !important;}
 	}
 
 	.main-navigation ul ul {
-		background: #fff;
+		background: #223f67;
 		border: 1px solid #bbb;
 		left: -999em;
 		padding: 0;
@@ -3803,7 +3804,7 @@ input:-webkit-autofill {background: #fff !important;}
 	.main-navigation ul ul a {
 		padding: 0.75em 1.25em;
 		width: 16em;
-	}
+	}	
 
 	.main-navigation li li {
 		-webkit-transition: background-color 0.2s ease-in-out;

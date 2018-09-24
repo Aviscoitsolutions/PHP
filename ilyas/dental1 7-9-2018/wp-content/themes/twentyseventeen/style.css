@@ -3564,7 +3564,7 @@ input:-webkit-autofill {background: #fff !important;}
 		margin-bottom: 0;
 		/*ilyas*/
 		/*padding: 90px 0;*/	
-		padding: 0;
+		padding: 50;
 	}
 
 	.has-header-image.twentyseventeen-front-page .site-branding,
@@ -4318,6 +4318,15 @@ input:-webkit-autofill {background: #fff !important;}
 	.site-branding{padding:89px;}
 
 }
+/*heade slider */
+@media screen and ( min-width:56.75em ) and ( max-width: 60.5625em ){
+	.site-branding{margin-top:171px;}
+}
+@media screen and ( min-width:60.625em ) and ( max-width: 80em ){
+	.site-branding{margin-top:101px;}
+}
+/*header slider*/
+
 
 @media screen and ( min-width: 79em ) {
 

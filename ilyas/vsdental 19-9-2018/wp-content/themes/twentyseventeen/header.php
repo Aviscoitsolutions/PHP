@@ -50,48 +50,37 @@ wp_redirect($home."/login/?flag=please");exit;
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> id="videsc">
 	<?php if(is_front_page()) { ?>		
-<!-- Section: home video http://youtu.be/mroiVdC7H10-->
-    <!-- <section id="intro" class="home-video text-light">
-		<div class="home-video-wrapper">
-		<div class="homevideo-container">
-           <div id="P1" class="bg-player" style="display:block; margin: auto; background: rgba(0,0,0,0.5)" data-property="{videoURL:'https://www.youtube.com/watch?v=bTp3Pt_RQmA',containment:'.homevideo-container', quality: 'hd720', showControls: false, autoPlay:true, mute:true, startAt:0, opacity:1}">
-           </div>
-		</div>
-		<div class="overlay">
-			<div class="text-center video-caption">
-				<div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.8s">
-					<h1 class="big-heading font-light"><span id="js-rotating">We are valera, Awesome Bootstrap theme, Get better appearance, Craft from pixel </span></h1>
-				</div>
-				<div class="wow bounceInUp" data-wow-offset="0" data-wow-delay="1s">
-					<div class="margintop-30"> -->
-						<!-- <a href="#about" class="btn btn-skin" id="btn-scroll">Start here</a> -->
-					<!-- </div>
-				</div>
-			</div>
-		</div>
-		</div>
-    </section> -->
-    <!--  -->
-    <!-- <?php echo $temppath?>/video/Novodent - Dental J4qqnWscqeQ  KjPzPKNbsxIClinic.mp4?rel=0&controls=0&showinfo=0&autoplay=1&loop=1&modestbranding=0-->
-   <!-- 
-     <iframe id="ytplayer"  class="w-100 htfrm" type="text/html" style="border:none" 
-src="https://www.youtube.com/embed/vK5_cAYCpl4?rel=0&controls=0&showinfo=0&autoplay=1&version=3&playlist=1&loops=1&modestbranding=1" 
-frameborder="0" controls="0"  allowfullscreen allow="autoplay; encrypted-media"></iframe>  -->
+
 <script type="text/javascript">
 
 $( document ).ready(function() {
-	var sts= document.getElementById("myVideo");
+	// /var sts= document.getElementById("myVideo");
 	//alert(sts);
 	//sts.controls=false;
 	//var kk=sts.loops();	
 	sts.play();		
-});
-
-
-	
+});	
 </script><!-- oncanplay="strd();" -->
+<!-- menu color change when scroll mouse -->
+<!-- <script>
+document.getElementById("myVideo").addEventListener("wheel", myFunction);
+
+function myFunction() {
+    //this.style.fontSize = "35px";
+     this.style.background = "red";
+}
+</script> -->
+
+
+
+
+
+
+
+<!-- menu color change when scroll mouse -->
+
 <video id="myVideo" class="w-100 htfrm" autoplay="true" loop="true"    poster="images/cover.jpg" title="" >
   <source id="abc1" src="<?php echo $temppath;?>/video/Nature Beautiful short video 720p HD.mp4" type="video/mp4" >
   <source id="abc2" src="<?php echo $temppath;?>/video/Nature Beautiful short video 720p HD.mp4" type="video/ogg" >  
@@ -106,12 +95,10 @@ $( document ).ready(function() {
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-
 					<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
 		<!-- <div class="" style="margin-top: 30px;"></div> -->
-
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
-			<div class="navigation-top">
+			<div class="navigation-top" id="headerbg">
 				<div class="wrap">
 					<?php get_template_part('template-parts/navigation/navigation','top'); ?>
 				</div><!-- .wrap -->

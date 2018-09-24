@@ -159,6 +159,21 @@ if (pass1 != pass2)
         } }
 </script>
 <!-- change password -->
+<!-- // When the user scrolls down 20px from the top of the document, slide down the navbar -->
+<script>
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("headerbg").style.background = "#223f67";
+    //document.getElementById("headerbg").style.color = "#fff";
+  } else {
+    document.getElementById("headerbg").style.background = "transparent";
+  }
+}
+</script>
+<!-- // When the user scrolls down 20px from the top of the document, slide down the navbar -->
 
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
