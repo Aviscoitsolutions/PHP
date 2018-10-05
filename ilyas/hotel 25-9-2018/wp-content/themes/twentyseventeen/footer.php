@@ -47,7 +47,7 @@
 								<ul class="footer_list" style="list-style: none;">
 									<li><a href="#">Luxury Bed Room</a></li>
 									<li><a href="#">Luxury Bath Room</a></li>
-									<li><a href="#">Luxury Swimmin Pool</a></li>
+									<li><a href="#">Luxury Swimming Pool</a></li>
 									<li><a href="#">Luxury Dining Room</a></li>
 									<li><a href="#">Luxury Gardent</a></li>							
 								</ul>
@@ -55,11 +55,11 @@
 					
 					</div>
 					<div class="col-md-3 col-sm-3">
-					<h3><a href="#" class="text-white">Contact Us</a></h3>
-					<div class="col-md-12 col-sm-12">
-						<h3 class="text-white">News Letter</h3>
-						<input type="email" name="letter" placeholder="Email Id" class="w-100">
-						<input type="submit" name="submit" value="Subscribe" class="btn-block bg-dark">
+					<h3 class="text-center"><a href="#" class="text-white">Contact Us</a></h3>
+					<div class="col-md-12 col-sm-12 fobutton">
+						<h5 class="text-white">News Letter</h5>
+						<input type="email" name="letter" placeholder="Email Id" class="w-100 fbutton">
+						<input type="submit" name="submit" value="Subscribe" class="btn-block bg-dark w-100 fsubmit">
 					</div>
 					<div class="w-100"><h3 class="text-center text-white">Follow Us</h3></div>
 
@@ -131,8 +131,9 @@ if (pass1 != pass2)
 <script>
     $(document).ready(function(){
       $(window).scroll(function() { // check if scroll event happened
-        if ($(document).scrollTop() > 20) { // check if user scrolled more than 50 from top of the browser window
-          $("#headerbg").css("background-color", "#d4af37"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+        if ($(document).scrollTop() > 5) { // check if user scrolled more than 5px from top of the browser window
+          $("#headerbg").css("background-color", "#d4af37"); // if yes, then change the color of class 
+          $("#headerbg").css("z-index", "1000");
         } else {
           $("#headerbg").css("background-color", "transparent"); // if not, change it back to transparent
         }
@@ -144,7 +145,7 @@ if (pass1 != pass2)
 <script>
 $(document).ready(function(){
     $("#payment").submit(function(){
-        alert("Submitted");
+       // alert("Submitted");
         var fname=$("#firstname").val();
         var lname=$("#lastname").val();
         var email=$("#email").val();

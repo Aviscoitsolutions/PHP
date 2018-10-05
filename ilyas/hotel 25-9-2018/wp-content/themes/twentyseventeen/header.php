@@ -34,20 +34,8 @@ wp_redirect($home."/login/?flag=please");exit;
 
  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
  <?php $temppath=get_template_directory_uri();?>
-<!-- css -->
- <!-- <link href="<?php echo $temppath;?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
-  <!--   <link href="<?php echo $temppath;?>/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /> -->
-	<!-- <link href="<?php echo $temppath;?>/css/nivo-lightbox.css" rel="stylesheet" />
-	<link href="<?php echo $temppath;?>/css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
-	<link href="<?php echo $temppath;?>/css/owl.carousel.css" rel="stylesheet" media="screen" />
-    <link href="<?php echo $temppath;?>/css/owl.theme.css" rel="stylesheet" media="screen" />
-	<link href="<?php echo $temppath;?>/css/flexslider.css" rel="stylesheet" />
-	<link href="<?php echo $temppath;?>/css/animate.css" rel="stylesheet" />
-    <link href="<?php echo $temppath;?>/css/style.css" rel="stylesheet">
-	<link href="<?php echo $temppath;?>/color/default.css" rel="stylesheet">  -->
-<!-- css -->
-<!-- <script src="<?php echo $temppath;?>/js/jquery.min.js"></script>
- -->
+
+
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
 
 
@@ -70,9 +58,7 @@ wp_redirect($home."/login/?flag=please");exit;
 	
 	<?php if(is_front_page()) { ?>
 		<?php //echo do_shortcode('[vgwt_print_responsive_video_slider_with_thumbnail]'); ?>
-
-
-
+		
 <video id="myVideo" class="w-100 htfrm" loop="true"  title="" autoplay="autoplay" >
   <source id="abc1" src="<?php echo $temppath;?>/video/10 Most Expensive Hotel Rooms In The World.mp4" type="video/mp4" oncanload="" >
   <source id="abc2" src="<?php echo $temppath;?>/video/10 Most Expensive Hotel Rooms In The World.mp4" type="video/ogg" >

@@ -14,7 +14,7 @@
 		<div class="col-md-4">
 			<?php the_custom_logo(); ?>
 		</div>
-		<div class="col-md-7 lh47">
+		<div class="col-md-8 lh47">
 <nav id="site-navigation" class="main-navigation  float-right" role="navigation" aria-label="<?php esc_attr_e( 'Top Menu', 'twentyseventeen' ); ?>">
 	<button class="menu-toggle" aria-controls="top-menu" aria-expanded="false">
 		<?php
@@ -35,8 +35,8 @@
 
 </nav><!-- #site-navigation -->
 </div>
-<div class="col-md-1 text-right lh79">
+<!--<div class="col-md-1 text-right lh79">
 <a href="<?php echo home_url();?>/login/?flag=logout"><?php if(isset($_SESSION["username"])) {echo 'Logout';} else {echo 'Login';}?></a>
-</div>
+</div>->
 </div>
 </div>
